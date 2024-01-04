@@ -40,5 +40,5 @@ steps:
     publishLocation: 'pipeline'
 - task: SonarQubePrepare@5
   inputs:
-    SonarQube: 'http://http://52.191.219.90:9000/'
-    scannerMode: CLI 
+    SonarQube: 'Sonarqube-service-connection'
+    scannerMode: 'CLI'
