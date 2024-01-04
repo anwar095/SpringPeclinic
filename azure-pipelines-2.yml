@@ -26,6 +26,7 @@ steps:
     jdkversion: 'JAVA_HOME_11_X64'
     cliProjectKey: 'java'
     cliProjectName: 'Spring-Petclinic-Project'
+    extraProperties: 'sonar.projectKey=java'
 - task: SonarQubePublish@5
   inputs:
     pollingTimeoutSec: '300'
